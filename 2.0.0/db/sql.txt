@@ -1,0 +1,8 @@
+1	BookID Primary	int(11)			No	None		AUTO_INCREMENT
+2	Title	varchar(255)	utf8_general_ci		Yes	NULL	
+3	Description	text	utf8_general_ci		No	None	
+4	Url	varchar(250)	utf8_general_ci		No	None	
+5	Category	varchar(250)	utf8_general_ci		No	None
+6	Cover	varchar(250)	utf8_general_ci		No	None	
+7	Date	date			No	None			
+8	Views	int(11)			No	0			

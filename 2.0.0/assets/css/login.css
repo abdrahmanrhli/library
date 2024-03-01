@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cover {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.container-cover img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.container-login {
+    flex: 1;
+    text-align: center;
+}
+
+.container-login form {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-container input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.btn {
+    background-color: #ff6456;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #F4347B;
+}
+
+h2 {
+    color: #ff6456;
+    margin-bottom: 20px;
+}
+
+.container-login p a {
+    color: #ff6456;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.container-login p a:hover {
+    color: #ff6456;
+    text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.input-container input,
+.btn {
+    border-radius: 10px;
+}
+
+.icon {
+    margin-left: 6%;
+}
+.cover-2 {
+        display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cover-1 {
+        display: none;
+    }
+
+    .cover-2 {
+        display: block;
+    }
+
+    .container-cover img {
+        width: 150px;
+    }
+
+    .container-login h2 {
+        margin-top: 25px;
+    }
+
+    .icon {
+        margin-left: 8%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 50%;
+    }
+}

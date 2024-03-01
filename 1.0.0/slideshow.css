@@ -1,0 +1,36 @@
+.contener_slideshow
+{
+  width:1300px;
+  height:300px;
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.slid_1, .slid_2, .slid_3
+{
+  position: absolute;
+  width:1300px;
+  height:300px;
+}
+.slid_1{left: 0;}
+.slid_2{left: 1300px;}
+.slid_3{left: 2600px;}
+.contener_slide
+{
+  width: 2600px;
+  height: 300px;
+  left:0px;
+  position: absolute;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-1300px;}
+  45% {left:-1300px;}
+  66% {left:-2600px;}
+  90% {left:-2600px;}
+}

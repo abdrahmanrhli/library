@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    font-size: 16px;
+}
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    width: 90%;
+    margin: 7% auto;
+}
+h1 {
+    text-align: center;
+    color: #ff6456;
+    margin-bottom: 20px;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    transition: border-color 0.3s ease;
+}
+input:focus, textarea:focus {
+    border-color: #ff6456;
+}
+#txt {
+    top: 11%;
+}
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #999;
+}
+.btn {
+    background-color: #ff6456;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.btn:hover {
+    background-color: #F4347B;
+}
+textarea {
+    resize: none;
+    overflow-y: auto;
+    height: 150px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 50%;
+    }
+    textarea {
+        height: 170px;
+    }
+}

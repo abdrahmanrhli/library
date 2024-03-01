@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    font-size: 16px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    width: 90%;
+    margin: 7% auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6456;
+    margin-bottom: 20px;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+
+.user-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.user-details div {
+    margin-bottom: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.add, .edit, .delete {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #ff6456;
+    font-size: 14px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.add:hover, .edit:hover, .delete:hover {
+    background-color: #F4347B;
+    color: #ffffff;
+    text-decoration: none;
+}
+.fullname{
+    font-weight: bold;
+}
+
+.add-user-link {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .user-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .user-details .btn {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+}

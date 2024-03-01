@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        background-image: url(images/b.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-right: 150px;
+        margin-top: -70px;
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border-radius:50px;
+        transition: 0.6s ease;
+    }
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+        border-radius:50px;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+    .log{
+        width: 100px;
+        height: 109px;
+    }
+    .l{
+        text-decoration: none;
+        color: #ff6456;
+        font-size: 20px;
+        border: 2px solid #ff6456;
+        border-radius: 50px;
+        padding: 5px 20px;
+        float: left;
+        transition: 0.6s ease;
+    }
+    .l:hover{
+        background: linear-gradient(45deg,#ff6456,#F4347B);
+        color: #fff;
+        border: 0px solid #ff6456;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .text{
+        float: left;
+        font-size: 17px;
+        margin-top: 190px;
+        margin-left: 100px;
+    }
+    .text h1{
+        background: -webkit-linear-gradient(45deg,#ff6456,#F4347B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+    #sign{
+        margin-left: 80px;
+    } 
+    .center1{
+        background-image: url(images/j.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .b{
+        float: right;
+        margin-top: 330px;
+        margin-right: 150px;
+    }
+    .bt{
+        font-size: 20px;
+    }
+    .lb{
+        text-decoration: none;
+        font-size: 20px;
+        color: #ff6456;
+        border: 2px solid #ff6456;
+        border-radius: 50px;
+        padding: 5px 20px;
+        transition: 0.6s ease;
+    }
+    .lb:hover{
+        background: linear-gradient(45deg,#ff6456,#F4347B);
+        color: #fff;
+        border: 0px solid #ff6456;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .center2{
+        background-image: url(images/i.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .text-center2{
+        float: left;
+        font-size: 17px;
+        margin-top: 18%;
+        margin-left: 100px;
+    }
+    .center3{
+        position: relative;
+        margin-bottom: 1px;
+        background-image: url(images/k.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .text-center3{
+        float: right;
+        font-size: 17px;
+        margin-top: 18%;
+        margin-right: 100px;
+    }
+    .div-map{
+        background: linear-gradient(45deg,#ff6456,#F4347B);
+        margin-top: 200px;
+        width: 100%;
+        height: 570px;
+        
+    }
+    .div-map h2{
+        position: absolute;
+        margin: 20px 43%;
+        color: #FFFFFF;
+        border: 2px solid #ffffff;
+        padding: 5px 20px;
+        white-space: nowrap;
+    }
+    
+    .map iframe{
+        border-radius: 10px;
+        box-shadow: 0 7px 50px 0 rgba(0, 0, 0, 0.2),
+                     0 9px 100px 0 rgba(0, 0, 0, 0.19);
+        margin: 80px 30%;
+    }
+    footer{
+        background-image: url(images/h.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .links{
+        float: right;
+        margin-top: 400px;
+        margin-right: 550px;
+        text-align: center;
+    }
+    .links p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .links p a{
+        color: #a8a1a1;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+    .links p a:hover{
+        color: #ff6456;
+    }
+    .icon{
+        float: right;
+        margin-top: 400px;
+        margin-right: -270px;
+        display: block;
+    }
+    .icon a img{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    .qr{
+        float: right;
+        width: 200px;
+        height: 200px;
+        margin-top: 400px;
+        margin-right: -540px;
+        text-align: center;
+    }
+    .qr img{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        opacity: 70%;
+    }
+    hr{
+        width: 1100px;
+        height: 1px;
+        background: #030303;
+        border: none;
+    }
+    .hr{
+        float: left;
+        margin-top: 1.5%;
+        margin-left: 17%;
+    }
+    .id{
+        position: relative;
+        text-align: right;
+        margin-top: -15px;
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img class="log" src="images/a.png">
+            </div>
+            <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="book.php">Books</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>                
+            </div>
+            <div class="text">
+                <div>
+                <h1>Welcome to your library</h1><br>
+                <p>learn more about your Electronic library, there are a lot of new books<br>if you are tired of looking for books you will find it easy only here</p></br>
+                <h4>join us what are you waiting you will find it easy only here</h4><br><br>
+                </div>
+                <div>
+                <a class="l" href="sign up.php">Sign up</a>
+                <a class="l" id="sign" href="sign in.php">Sign in</a>
+                </div>
+            </div>
+    </header>
+    <div class="center1">
+        <div class="b">
+            <div class="bt">
+                <h1>We have a lot of books</h1></br/>           
+            </div>
+            <div>
+                <p>No doubt you suffer too much in searching about many of books.<br>But sometimes you didn't find it.<br>So don't worry we offer to you different books in all fields.
+                </p><br><br>
+                <a class="lb" href="about.html">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="center2">
+        <div class="text-center2">
+            <div>
+            <h1>Comforts and enjoyment<br> when you read books</h1><br>
+            <p>absolutly the rest has a special taste, rarely when you find it in some place.<br>so don't worry we look after daily for your comfort just to stay our goal that we aspire to.</p>
+            <p>through a lot of special ideas we choose the most beautiful of them just for your comfort</p><br><br>
+            </div>
+            <div>
+            <a class="l" href="about.html">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="center3">
+        <div class="text-center3">
+                <h1>For efforts to provide the library</h1><br>
+                <p>Our team makes every effort to watch over your library<br>as it does not overlook a part or feature unless it prepares it to provide<br> you with all this and more.<br><br>You may lose something or want a new feature in your library<br>or a technical malfunction may occur outside our control</p>
+                <p>so do not worry, just inform us about the thing you want or encounter.</p><br><br>
+                <div>
+                <a class="l" href="contact.php">Contact us now</a>
+                </div>
+        </div>
+    </div>
+        <div class="div-map">
+            <h2>Library location</h2>
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834.3844035788778!2d-13.19734182920128!3d27.1506729989391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDA5JzAyLjQiTiAxM8KwMTEnNTIuNCJX!5e1!3m2!1sar!2s!4v1604607835810!5m2!1sar!2s"
+            width="600" height="450" frameborder="0" style="border: 7px solid #ffffff;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        </div>   
+    <footer>
+        <div class="links">
+            <h4>Useful Links</h4>
+            <p><a href="index.html">Home</a></P>
+            <P><a href="book.html">Books</a></P>
+            <P><a href="about.html">About</a></P>
+            <P><a href="contact.html">Contact</a></P>  
+        </div>
+        <div class="icon">
+            <h4>Contacts</h4>
+            <a href="socialmedia.html"><img src="icon/facebook.png"></a>
+            <a href="socialmedia.html"><img src="icon/instagram.png"></a>
+            <a href="socialmedia.html"><img src="icon/twitter.png"></a>
+            <a href="socialmedia.html"><img src="icon/snapchat.png"></a>
+        </div>
+        <div class="qr">
+            <h4>QR Code</h4>
+            <img src="images/QR Code.png">
+        </div>
+        <div class="hr">
+            <hr>
+           <h5>Copyright &copy; 2020-2021 </h5>           
+           <h5 class="id">Desgin & Dev erahali &trade;</h5><br>
+           <h6 class="id">ID A0001R</h6>
+        </div>
+    </footer>
+</body>
+</html>

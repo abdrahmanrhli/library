@@ -1,0 +1,75 @@
+.navbar {
+    margin-top: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+    color: #ff6456;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f4347b;
+    text-decoration: none;
+}
+
+.btn-outline-success {
+    color: #fff;
+    background-color: #ff6456;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-outline-success:hover {
+    background-color: #f4347b;
+    text-decoration: none;
+}
+
+.form-control {
+    border-radius: 10px;
+    border-color: #ff6456;
+}
+
+.form-control:focus {
+    border-color: #f4347b;
+}
+
+.search-btn {
+    border-radius: 10px;
+}
+
+.favorite-btn {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.dropdown-menu {
+    margin-top: 8px;
+}
+
+.user-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-link.text-orange {
+    color: #ff6456;
+}
+
+.nav-link.text-orange:hover {
+    color: #F4347B !important;
+}
