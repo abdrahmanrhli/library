@@ -97,10 +97,10 @@ function generateFavoriteButton($conn, $UserID, $BookID) {
             </div>
         </div>
     </div>
-    <?php foreach ($rowsNewBooks as $row) : ?>
     <div class="books-container">
         <h2 class="category-title"><i class="fa-solid fa-jet-fighter-up"></i>New Books</h2>
         <div class="books">
+            <?php foreach ($rowsNewBooks as $row) : ?>
             <div class="book">
                 <a href="view-book.php?id=<?php echo $row['BookID']; ?>">
                     <?php if (!empty($row['Cover'])) : ?>
@@ -112,13 +112,13 @@ function generateFavoriteButton($conn, $UserID, $BookID) {
                 </a>
                 <?php generateFavoriteButton($conn, $UserID, $row['BookID']); ?>
             </div>
+            <?php endforeach; ?>
         </div>
     </div>
-    <?php endforeach; ?>
     <div class="books-container">
         <h2 class="category-title"><i class="ri-bookmark-line"></i>Literature</h2>
         <div class="books">
-        <?php foreach (getCategoryBooks($conn, 'Literature') as $row) : ?>
+            <?php foreach (getCategoryBooks($conn, 'Literature') as $row) : ?>
                 <div class="book">
                     <a href="view-book.php?id=<?php echo $row['BookID']; ?>">
                         <?php if (!empty($row['Cover'])) : ?>

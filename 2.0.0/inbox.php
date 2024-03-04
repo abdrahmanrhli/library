@@ -6,7 +6,7 @@ session_admin();
 // Fetch messages from database
 $sql = "SELECT messages.*, users.FullName 
         FROM messages 
-        INNER JOIN users ON messages.SenderUserID = users.UserID";
+        INNER JOIN users ON messages.UserIDF = users.UserID";
 $stmt = $conn->query($sql);
 ?>
 <!DOCTYPE html>

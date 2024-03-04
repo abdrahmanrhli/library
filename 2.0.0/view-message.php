@@ -17,7 +17,7 @@ if(isset($_GET['message_id']) && !empty($_GET['message_id'])){
     // Fetch message details from database
     $sql = "SELECT messages.*, users.Username, users.Email 
             FROM messages 
-            INNER JOIN users ON messages.SenderUserID = users.UserID
+            INNER JOIN users ON messages.UserIDF = users.UserID
             WHERE MessageID = :message_id";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':message_id', $message_id, PDO::PARAM_INT);

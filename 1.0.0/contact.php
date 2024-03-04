@@ -1,125 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            max-width: 90%;
-            width: 90%;
-            margin: auto;
-        }
-        h1 {
-            text-align: center;
-            color: #ff6456;
-            margin-bottom: 20px;
-        }
-        .input-container {
-            position: relative;
-            margin-bottom: 20px;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-sizing: border-box;
-            padding-left: 40px;
-            transition: border-color 0.3s ease;
-        }
-        input:focus, textarea:focus {
-            border-color: #ff6456;
-        }
-        #txt {
-            top: 10%;
-        }
-        .input-container i {
-            position: absolute;
-            top: 50%;
-            left: 15px;
-            transform: translateY(-50%);
-            color: #999;
-        }
-        .btn {
-            background-color: #ff6456;
-            color: #fff;
-            border: none;
-            padding: 12px 20px;
-            cursor: pointer;
-            border-radius: 10px;
-            transition: background-color 0.3s ease;
-            width: 100%;
-        }
-        .btn:hover {
-            background-color: #F4347B;
-        }
-        textarea {
-            resize: none;
-            overflow-y: auto;
-            height: 150px;
-        }
-
-        @media screen and (min-width: 768px) and (max-width: 1200px) {
-            .container {
-                width: 60%;
-            }
-        }
-        @media screen and (min-width: 1200px) {
-            .container {
-                max-width: 40%;
-            }
-            textarea {
-                height: 170px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Contact Us</h1>
-        <form method="POST" action="submit.php">
-            <div class="input-container">
-                <i class="ri-user-fill"></i>
-                <input type="text" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="input-container">
-                <i class="ri-mail-fill"></i>
-                <input type="email" name="email" placeholder="Your Email" required>
-            </div>
-            <div class="input-container">
-                <i class="ri-message-3-fill" id="txt"></i>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" class="btn"><i class="ri-send-plane-fill"></i> Send Message</button>
-        </form>
-    </div>
-</body>
-</html>
-<!-- #txt {
-            top: 20%;
-        }
-id="txt" -->
-
-<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>Home</title>
@@ -131,10 +10,10 @@ id="txt" -->
         font-family: Arial, Helvetica, sans-serif;
         }
         header{
-        /* background-image: url(images/contact.png);
+        background-image: url(images/contact.png);
         height: 100vh;
         background-size: cover;
-        background-position: center; */
+        background-position: center;
         }
         .logo-div{
             text-align: center;
@@ -258,7 +137,7 @@ id="txt" -->
     </header>
 </body>
 </html>
-< ?php
+<?php
         require 'config.php';
 
         if(isset($_POST['send'])){
@@ -273,4 +152,4 @@ id="txt" -->
                             "</p>";
                 }
         }
-?> -->
+?>
