@@ -1,6 +1,6 @@
 # Library Management System | Frontend and Backend
 
-## Learn about the digital library
+## Learn about the digital library :
 Prepare to explore our remarkable digital library, crafted using cutting-edge technologies and languages in the web development realm. Our library encompasses techniques such as HTML, CSS, JavaScript, jQuery, AJAX, PHP, and MySQL, ensuring a comprehensive and outstanding development experience.
 
 The first version (1.0.0), launched in 2019, marks the beginning of the library's journey, offering foundational tools and essentials for developers.
