@@ -45,6 +45,12 @@ This library serves as an ideal destination for designers and developers seeking
 <img src="https://github.com/user-attachments/assets/decff38c-d2c1-4df7-a76d-28868d3cef1f" alt="book img" width="%50">
 <img src="https://github.com/user-attachments/assets/65bc63d2-d027-4c6f-804b-a68f479869cf" alt="book img" width="%50">
 <img src="https://github.com/user-attachments/assets/1732cb4c-d3ff-4c79-9da7-eea9bb4450dd" alt="book img" width="%50">
-
 <img src="https://github.com/user-attachments/assets/01c0f179-dc87-4b44-9426-86f648844a52" alt="book img" width="%50">
 
+### Conclusion :
+
+I hope I have succeeded in explaining the digital library.
+
+Regarding version (2.0.0) of the digital library, you can find it in the video attached above.
+
+Wait for me in other projects..
