@@ -2,9 +2,4 @@
 *.css linguist-detectable=true  
 *.js linguist-detectable=true  
 *.php linguist-detectable=true  
-*.sql linguist-detectable=true  
-
-# لمنع GitHub من التعرف على ملفات محددة كلغة برمجة رئيسية
-*.xml linguist-detectable=false  
-*.json linguist-detectable=false
-*.md linguist-detectable=false
+*.sql linguist-detectable=true
