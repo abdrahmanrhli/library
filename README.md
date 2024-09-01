@@ -10,4 +10,6 @@ The second iteration (2.0.0) has undergone radical enhancements and added new fe
 This library serves as an ideal destination for designers and developers seeking to evolve using the latest technologies and practices in web development.
 
 ## Watch the video for more details on YouTube :
-[![Video Library Management System | Frontend and Backend in PHP, HTML, CSS, JavaScript](https://github.com/user-attachments/assets/bd32b039-8176-4be2-a8ed-6bdb58a36f30)](https://youtu.be/QgAWoXUjlhQ)
+[![Video Library Management System | Frontend and Backend in PHP, HTML, CSS, JavaScript](https://github.com/user-attachments/assets/6ba5f595-dde8-45d8-ab68-12e3d13b70ba)](https://youtu.be/QgAWoXUjlhQ)
+
+
