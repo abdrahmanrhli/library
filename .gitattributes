@@ -1,6 +1,8 @@
 *.php linguist-detectable=true
 
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-*.js linguist-detectable=false
+# منع اكتشاف اللغات الأخرى بما في ذلك Less
+*.html linguist-detectable=false  
+*.css linguist-detectable=false  
+*.js linguist-detectable=false  
 *.sql linguist-detectable=false
+*.less linguist-detectable=false
