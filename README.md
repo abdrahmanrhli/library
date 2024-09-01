@@ -15,3 +15,7 @@ This library serves as an ideal destination for designers and developers seeking
 ## Learn about version (1.0.0) through this book :
 
 <img src="https://github.com/user-attachments/assets/9b04cc36-08c9-476b-b7df-0ea083befd1d" alt="book img" width="%50">
+<img src="https://github.com/user-attachments/assets/8e7ea6c4-5e2c-4a80-862c-c8b1b39f184a" alt="book img" width="%50">
+
+<img src="https://github.com/user-attachments/assets/01c0f179-dc87-4b44-9426-86f648844a52" alt="book img" width="%50">
+
