@@ -12,4 +12,6 @@ This library serves as an ideal destination for designers and developers seeking
 ## Watch the video for more details on YouTube :
 [![Video Library Management System | Frontend and Backend in PHP, HTML, CSS, JavaScript](https://github.com/user-attachments/assets/6ba5f595-dde8-45d8-ab68-12e3d13b70ba)](https://youtu.be/QgAWoXUjlhQ)
 
+## Learn about version (1.0.0) through this book :
+
 
